@@ -26,7 +26,7 @@ if(year%4 ==0||year%100==0||year%400==0)
 count++;
 }
 for (int i =month-1;i>=0;i--){
-day=day+arr[i];
+day=day+arr[i]+count;
 }
 return result;
 }
